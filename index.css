@@ -1,0 +1,217 @@
+:root {
+    --header-margin-top: 50px; 
+}
+
+body {
+    background-color: #0C0C0C;
+    color: #ffffff;
+}
+
+.main-section {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-section__left {
+    width: 8%;
+}
+
+.main-section__center {
+    width: 90%;
+}
+
+.main-section__right {
+    width: 5%;
+}
+
+.burger-menu {
+    margin-top: var(--header-margin-top);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.project {
+    margin-top: 60%;
+    transform: rotate(-90deg);
+    font-size: 25px;
+}
+.brandtext {
+    margin-top: 60%;
+    margin-left: 47%;
+    transform: rotate(-90deg);
+    font-size: 25px;
+}
+
+.header {
+    margin-top: var(--header-margin-top);
+    margin-left: -150%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav ul {
+    display: flex;
+    
+    gap: 10px;
+    
+}
+
+.creativ {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+.main-column {
+    padding: 100px; /* Отступы внутри основной колонки */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.rectangle {
+    background-color: rgb(62, 62, 62); /* Белый цвет фона */
+    border-radius: 15px; /* Скругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    margin-bottom: 10px; /* Отступ между прямоугольниками */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для улучшения внешнего вида */
+}
+
+.rectangle- p {
+    text-align: left; /* Выравнивание текста по левому краю */
+    margin: 0; /* Убираем отступы у параграфа */
+    font-size: 30px;
+    color: #000000;
+}
+.main-column- {
+    padding: 100px; /* Отступы внутри основной колонки */
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.rectangle- {
+    background-color: rgb(255, 255, 255); /* Белый цвет фона */
+    border-radius: 15px; /* Скругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    margin-bottom: 10px; /* Отступ между прямоугольниками */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Тень для улучшения внешнего вида */
+}
+
+.rectangle p {
+    text-align: left; /* Выравнивание текста по левому краю */
+    margin: 0; /* Убираем отступы у параграфа */
+    font-size: 30px;
+    
+    color: #ffffff;
+}
+.rectangle-2 {
+    margin-top: 5%;
+    display: flex;
+    width: 70%;
+    background-color: rgb(52, 16, 16); /* Белый цвет фона */
+    border-radius: 15px; /* Скругленные углы */
+    padding: 20px; /* Внутренние отступы */
+   
+    
+}
+
+.application-form {
+    margin-top: 70%;
+    margin-left: -80%;
+    margin-right: 40%;
+    background-color: #f9f9f9; /* Цвет фона */
+    border-radius: 15px; /* Скругленные углы */
+    padding: 20px; /* Внутренние отступы */
+    display: flex; /* Для размещения текстового и поля ввода */
+    gap: 20px; /* Пробел между элементами */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для улучшения внешнего вида */
+}
+
+.form-description {
+    flex: 1; /* Занимает 1 часть от доступного пространства */
+}
+
+.form-fields {
+    flex: 1; /* Занимает 1 часть от доступного пространства */
+    display: flex; /* Для упорядочивания полей ввода */
+    flex-direction: column; /* Вертикальное размещение полей */
+}
+
+.input-field {
+    background-color: white; /* Цвет фона полей ввода */
+    border-radius: 10px; /* Скругленные углы */
+    border: 1px solid #ccc; /* Обводка полей */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px; /* Отступ между полями */
+    font-size: 16px; /* Размер шрифта */
+}
+
+.input-field:focus {
+    border-color: #000000; /* Цвет обводки при фокусе */
+    outline: none; /* Убираем стандартное выделение */
+}
+
+.submit-button {
+    background-color: #1e1e1e; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем обводку */
+    border-radius: 10px; /* Скругленные углы */
+    padding: 10px; /* Внутренние отступы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 25px; /* Размер шрифта */
+}
+
+.submit-button:hover {
+    background-color: #9b9b9b; /* Цвет кнопки при наведении */
+}
+
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  
+  .nav__item {
+    margin-left: 4.4rem;
+  }
+  
+  .nav__item:first-child {
+    margin-left: 0;
+  }
+  
+  .nav__item:last-child {
+    margin-left: 2.7rem;
+  }
+  
+  .nav__link {
+    color: #100A30;
+    text-decoration: none;
+  }
+  
+  .nav__btn {
+    font-size: 1.4rem;
+    background-color: #624DE3;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1.6rem 2.6rem;
+    border-radius: .6rem;
+  }
+ .main-2 {
+    margin-left: 20%;
+
+ }
